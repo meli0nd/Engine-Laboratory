@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engine Laboratory</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/imask"></script>
+</head>
+
+<body>
+    <div class="yandex-map_container">
+        <img class="yandex_pop-up_close" src="img/pop-up-closer.svg" alt="...">
+        <div class="yandex-map_popup" style="overflow:hidden;">
+            <a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps"
+                style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a
+                href="https://yandex.ru/maps/geo/moskva/53166393/?ll=37.617700%2C55.755863&utm_medium=mapframe&utm_source=maps&z=10"
+                style="color:#eee;font-size:12px;position:absolute;top:14px;">Москва — Яндекс Карты</a>
+            <iframe
+                src="https://yandex.ru/map-widget/v1/?ll=37.617700%2C55.755863&mode=poi&poi%5Bpoint%5D=37.617617%2C55.755811&poi%5Buri%5D=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1MzE2NjM5MxIa0KDQvtGB0YHQuNGPLCDQnNC%2B0YHQutCy0LAiCg14eBZCFfUFX0I%3D&z=10"
+                width="60%" height="60%" frameborder="1" allowfullscreen="false" style="position:relative;">
+            </iframe>
+        </div>
+    </div>
+
+    <div class="pop-ups_bg"></div>
+
+
+    <div class="pop-up_accept">
+        <img class="pop-up_accept_close" src="img/close-icon.svg" alt="...">
+        <h1 class="pop-up_title">Ваша заявка отправлена!</h1>
+        </form>
+    </div>
+    <div class="pop-up">
+        <img class="pop-up_close" src="img/close-icon.svg" alt="...">
+        <h1 class="pop-up_title">Быстро оставить <br> заявку</h1>
+        <p class="pop-up_subtitle">Введите номер — позвоним вам в течение 5-10 минут в рабочее время
+        </p>
+        <form action="#" method="post" class="pop-up_form">
+            <h1>Введите Ваш номер телефона</h1>
+            <input type="tel" id="phone" name="phone" placeholder="+ 7 (_ _ _) _ _ _ - _ _ - _ _">
+            <button class="pop-up_button" type="button">Перезвоните мне</button>
+            <div class="pop-up_check">
+                <input class="checkbox" type="checkbox" name="checkbox" id="checkbox">
+                <span class="accept">
+                    Нажимая кнопку вы соглашаетесь с условиями
+                    <a href="#">Политики конфиденциальности</a>
+                </span>
+            </div>
+        </form>
+    </div>
+
+    <div class="mobile-menu">
+        <div class="mobile-menu_header">
+            <div class="mobile-menu_header_logo header_logo">
+                <a href="#header">
+                    <img src="img/logo.png" alt="...">
+                </a>
+            </div>
+            <div class="mobile-menu_call-us_container">
+                <div class="mobile-menu_call-us_top call-us_top">
+                    <img src="img/online-icon.svg" alt="...">
+                    <span>Звоните Пн-Сб 10:00 - 21:00</span>
+                </div>
+                <div class="mobile-menu_call-us-mid call-us_mid">
+                    <a>+7 (925) 103 33 30</a>
+                    <img src="img/down-arrow.svg" alt="...">
+                </div>
+                <div class="mobile-menu_call-us-bottom call-us_bottom">
+                    <a class="call-us_cta">Заказать звонок</a>
+                    <img src="img/phone-icon.svg" alt="...">
+                </div>
+            </div>
+            <img class="mobile-menu_button-black" src="img/mobile-menu-button-black.svg" alt="...">
+        </div>
+        <nav class="mobile-menu_nav nav">
+            <ul class="mobile-menu_nav_container nav_container">
+                <li class="mobile-menu_services">
+                    <a href="#">Услуги</a>
+                    <span>Ремонт двигателей KIA</span>
+                    <span>Ремонт двигателей Hyundai</span>
+                </li>
+                <li><a href="#">Модели двигателей</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Стоимость</a></li>
+                <li><a href="#">Примеры работ</a></li>
+                <li><a href="#">Полезные статьи</a></li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu_address address">
+            <img src="img/map.svg" alt="...">
+            <div class="address_text">Адрес автоцентра: Москва, <br> Шоссейный
+                проезд, с4 а/2</div>
+        </div>
+        <div class="mobile-menu_calculate calculate">
+            <img src="img/calc-icon.svg" alt="...">
+            <a href="#" class="calculate_text">
+                <span class="calculate_text-1">Рассчитать стоимость</span>
+                <span class="calculate_text-2">ремонта за 45 сек</span>
+            </a>
+        </div>
+        <div class="mobile-menu_ask">
+            <img class="mobile-menu-photo" src="img/mobile-menu-photo.svg" alt="...">
+            <div class="mobile-menu_ask_content">
+                <span class="mobile-menu_ask_title">Есть вопрос?</span>
+                <span class="mobile-menu_ask_subtitle"></b>Задайте его нашему <br> мастеру онлайн</span>
+                <div class="mobile-menu_messengers">
+                    <a href="#"><img class="mobile-menu_messenger" src="img/WA-icon.svg" alt="..."></a>
+                    <a href="#"><img class="mobile-menu_messenger" src="img/TG-icon.svg" alt="..."></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <header class="header" id="#header">
+        <div class="header_navigation">
+            <div class="header_logo">
+                <a href="#header">
+                    <img src="img/logo.png" alt="...">
+                </a>
+            </div>
+            <span class="content">Ремонтируем двигатели <br>
+                Hyundai и Kia с 2012 года</span>
+            <div class="address">
+                <img src="img/map.svg" alt="...">
+                <div class="address_text">Адрес автоцентра: Москва, <br> Шоссейный
+                    проезд, с4 а/2</div>
+            </div>
+            <div class="open-map">
+                <img src="img/loc-icon.svg" alt="...">
+                <a href="#" class="open-map_text">Смотреть на карте</a>
+                <div class="yandex-map" style="overflow:hidden;"><a
+                        href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps"
+                        style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a
+                        href="https://yandex.ru/maps/geo/moskva/53166393/?ll=37.617700%2C55.755863&utm_medium=mapframe&utm_source=maps&z=10"
+                        style="color:#eee;font-size:12px;position:absolute;top:14px;">Москва —
+                        Яндекс Карты</a><iframe
+                        src="https://yandex.ru/map-widget/v1/?ll=37.617700%2C55.755863&mode=poi&poi%5Bpoint%5D=37.617617%2C55.755811&poi%5Buri%5D=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1MzE2NjM5MxIa0KDQvtGB0YHQuNGPLCDQnNC%2B0YHQutCy0LAiCg14eBZCFfUFX0I%3D&z=10"
+                        width="300" height="300" frameborder="1" allowfullscreen="true"
+                        style="position:relative;"></iframe></div>
+            </div>
+            <div class="calculate">
+                <img src="img/calc-icon.svg" alt="...">
+                <a href="#" class="calculate_text">
+                    <span class="calculate_text-1">Рассчитать стоимость</span>
+                    <span class="calculate_text-2">ремонта за 45 сек</span>
+                </a>
+            </div>
+            <div class="ask">
+                <span class="ask_text">Задайте вопрос, <br> мы сейчас онлайн </span>
+                <a href="#" class="messenger">
+                    <img src="img/WA-icon.svg" alt="...">
+                </a>
+                <a href="#" class="messenger">
+                    <img src="img/TG-icon.svg" alt="...">
+                </a>
+                <a href="#" class="messenger">
+                    <img src="img/VB-icon.svg" alt="...">
+                </a>
+            </div>
+            <div class="call-us_container">
+                <div class="call-us_top">
+                    <img src="img/online-icon.svg" alt="...">
+                    <span>Звоните Пн-Сб 10:00 - 21:00</span>
+                </div>
+                <div class="call-us_mid">
+                    <a>+7 (925) 103 33 30</a>
+                    <img src="img/down-arrow.svg" alt="...">
+                </div>
+                <div class="call-us_bottom">
+                    <a class="call-us_cta">Заказать звонок</a>
+                    <img src="img/phone-icon.svg" alt="...">
+                </div>
+            </div>
+            <img id="mobile-menu_button" src="img/mobile-menu-button.svg" alt="...">
+        </div>
+        <nav class="nav">
+            <ul class="nav_container">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Модели двигателей</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Стоимость</a></li>
+                <li><a href="#">Примеры работ</a></li>
+                <li><a href="#">Полезные статьи</a></li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="main-content">
+            <div class="main-content_container">
+                <h1 class="main-content_heading">Профессиональный <b>ремонт <br> двигателей</b> HYUNDAI и KIA
+                    <br><b>с
+                        гарантией 1
+                        год</b> за 4-7 дней
+                </h1>
+                <h2 class="main-content_text">в специализированном автосервисе полного цикла</h2>
+                <div class="main-content_buttons">
+                    <a href="#" class="main-content_button-1">
+                        <span class="flare"></span>
+                        <h1>Начать расчет стоимости <br> ремонта вашего двигателя</h1>
+                        <img src="img/button-arrow.svg" alt="...">
+                    </a>
+                    <a href="#" class="main-content_button-2">
+                        <span class="flare"></span>
+                        <div class="main-content_button-2_bg"></div>
+                        <img src="img/wa-button-icon.svg" alt="...">
+                        <h1>Узнайте стоимость по WhatsApp</h1>
+                    </a>
+                </div>
+            </div>
+            <div class="bullets">
+                <div class="bullets_container">
+                    <div class="bullet">
+                        <img src="img/check-icon.svg" alt="..">
+                        <h1> <b>Без предоплаты.</b> <br> оплата после ремонта</h1>
+                    </div>
+                    <div class="bullet">
+                        <img src="img/check-icon.svg" alt="..">
+                        <h1> <b>Работаем официально</b> c <br>оформлением заказ-нарядов и чеков</h1>
+                    </div>
+                    <div class="bullet">
+                        <img src="img/check-icon.svg" alt="..">
+                        <h1> <b>Оригинальные <br> запчасти</b></h1>
+                    </div>
+                    <div class="bullet">
+                        <img src="img/check-icon.svg" alt="..">
+                        <h1> <b>Лучшие цены на рынке </b>благодаря прямым <br> поставкам запчастей и собственному
+                            цеху <br> механической обработки
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="script.js"></script>
+</body>
+
+</html>
