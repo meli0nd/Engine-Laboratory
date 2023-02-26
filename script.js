@@ -68,6 +68,7 @@ mobilepopUpButton.addEventListener('click', () => {
         map2.style = 'display: none;'
     }
     callUsPopUp.style.display = 'block'
+    callUsPopUp.style.display = ''
     popUpBg.style.display = 'block'
 })
 
